@@ -1,0 +1,73 @@
+body{
+    background-color: #FF8C8C;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(-200);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    width: 400px;
+    height: 500px;
+    color: rgba(0, 0, 0, 0.7);
+    background: white;
+    border-radius: 16px;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.inp{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    font-size: medium;
+    padding-left: 10px;
+}
+.sign{
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 10px;
+    border: 1px solid #FF8C8C;
+    background-color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+}
+.sign:hover{
+    transition: all 0.3s;
+    background-color: #FF8C8C;
+}
+.h3 {
+    width: 80%;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    line-height: 0.1em;
+    margin: 30px 0 2px;
+  }
+  .h3:before, .h3:after{
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+  }
+  

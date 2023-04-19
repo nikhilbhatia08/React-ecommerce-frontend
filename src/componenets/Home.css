@@ -1,0 +1,4 @@
+.bodyComp{
+    display: flex;
+    flex-direction: row;
+}

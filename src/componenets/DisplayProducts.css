@@ -1,0 +1,16 @@
+.prod{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    min-width: 1050px;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 20px;
+    min-height: 800px;
+    max-height: fit-content;
+    border-radius: 10px;
+}
+.item1{
+    margin-top: 50px;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.cardi{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    height: 350px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    margin-top: 10px;
+    margin-left: 100px;
+    max-height: 200px;
+    width: 100px;
+}
+.add{
+    margin-left: 170px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #FF8C8C;
+    background-color: #FF8C8C;
+    border-radius: 5px;
+    font-weight: bold;
+}
