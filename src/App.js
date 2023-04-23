@@ -5,6 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import {useState} from 'react';
 import Navbar from './componenets/Navbar';
 import Home from './componenets/Home';
 import About from './componenets/About';
