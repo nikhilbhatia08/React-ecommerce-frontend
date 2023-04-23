@@ -12,6 +12,8 @@ import Sign from './componenets/Sign';
 import Cart from './componenets/Cart';
 import { createContext, useReducer } from 'react';
 
+const [auth, setAuth] = useState(false);
+
 const initialState = {
   cartCount : 0,
   cart : [],
