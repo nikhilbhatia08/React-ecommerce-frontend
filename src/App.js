@@ -13,7 +13,6 @@ import Sign from './componenets/Sign';
 import Cart from './componenets/Cart';
 import { createContext, useReducer } from 'react';
 
-const [auth, setAuth] = useState(false);
 
 const initialState = {
   cartCount : 0,
@@ -56,7 +55,8 @@ const reducer = (state, action) => {
 export const ContextOfCart = createContext();
 
 function App() {
-  const [state, dispatch] = useReducer(reducer, initialState)
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const [auth, setAuth] = useState(false);
   return (
     <>
     <ContextOfCart.Provider value={{...state, dispatch}}>
